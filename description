@@ -1,0 +1,13 @@
+This OpenGL project was developed by Rubayad Hasan The primary objective of the project is to demonstrate fundamental graphics programming concepts using OpenGL, GLFW, and GLAD in a C++ environment.
+The application focuses on rendering basic geometric shapes while incorporating interactive functionality and shader programming.
+When executed, the program creates a window titled "Rubayad", which reflects the developer's name. Inside the OpenGL context, a white background is initialized, serving as a clean canvas.
+  On this background, a cyan-colored square is drawn using two triangles to cover its four vertices. Positioned directly above this square is a cyan-colored triangle that shares its two base 
+    corners with the top two corners of the square. The third vertex of this triangle extends further upwards, giving the illusion of a simple house-like shape.
+The graphical elements are rendered using OpenGL 3.3 Core Profile, ensuring modern and efficient rendering techniques. Both the square and the triangle are drawn using vertices defined 
+  in a buffer and rendered through programmable shaders. The vertex shader handles the transformation of vertex positions,
+  while the fragment shader is responsible for the uniform cyan coloring of the rendered shapes.
+An additional interactive feature has been incorporated for user control. The application monitors keyboard inputs and listens specifically for the 'R' key, which is the first letter of the author's name.
+  If the user presses the 'R' key at any time during runtime, the application gracefully shuts down, demonstrating how OpenGL programs can respond to user events.
+This project is a great example of how foundational OpenGL techniques can be used to construct meaningful graphics projects. It demonstrates knowledge of vertex buffers,
+  vertex array objects, shader compilation, and event handling using GLFW. The program is lightweight, portable, and an excellent reference for beginners seeking to understand how shapes are drawn
+    and rendered in real-time graphics applications.
